@@ -1,10 +1,10 @@
 {
-  "name": "Eleventy Duo",
-  "description": "Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.",
+  "name": "🌿Digital Garden",
+  "description": "Personal website heavily inspired on joel hooks digital-garden and my friends @victor-paladini project",
   "url": "https://eleventyduo.netlify.app",
   "author": {
-    "name": "Author Name",
-    "email": "author@site.com",
+    "name": "Gabriel Reis",
+    "email": "gabrielreisnf@gmail.com",
     "twitterHandle": "author_handle"
   },
   "defaultSocialImage": "/images/default-social-image.png",
@@ -15,17 +15,12 @@
       "external": false
     },
     {
-      "text": "About",
+      "text": "About Me",
       "url": "/about",
       "external": false
     }
   ],
   "socialLinks": [
-    {
-      "text": "Instagram",
-      "url": "https://instagram.com/",
-      "external": true
-    },
     {
       "text": "GitHub",
       "url": "https://github.com/yinkakun/eleventy-duo",
@@ -33,6 +28,11 @@
     },
     {
       "text": "Twitter",
+      "url": "https://twitter.com/",
+      "external": true
+    },
+    {
+      "text": "Linkedin",
       "url": "https://twitter.com/",
       "external": true
     }
