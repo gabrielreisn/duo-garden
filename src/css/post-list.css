@@ -11,7 +11,15 @@
 
 .tags a {
   text-decoration: none;
-  color: rgb(117, 117, 117);
+  /* color: rgb(117, 117, 117); */
+  padding: 0.25rem 0.75rem;
+  border: 1px solid var(--accent);
+  border-radius: 4rem;
+  color: var(--accent);
+}
+
+.tags a:hover {
+  background-color: #fdddda;
 }
 
 .post-list__wrapper {
@@ -72,8 +80,8 @@
 }
 
 .post-list__tags a {
-  text-decoration: none;
-  color: rgb(117, 117, 117);
+  text-decoration: none;  
+  color: var(--accent);
 }
 
 .post-list__tags a:hover {
