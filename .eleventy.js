@@ -2,6 +2,9 @@ const { DateTime } = require('luxon');
 const readingTime = require('eleventy-plugin-reading-time');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
+
 const fs = require('fs');
 const path = require('path');
 
@@ -34,6 +37,18 @@ module.exports = function (eleventyConfig) {
     }
     return highlighter(str, language);
   });
+
+  // Customize Markdown library and settings:
+  let markdownLibrary = markdownIt({
+    html: true,
+      breaks: true,
+      linkify: true
+    }).use(markdownItAnchor, {
+      permalink: true,
+      permalinkClass: "direct-link",
+      permalinkSymbol: "#"
+    });
+  eleventyConfig.setLibrary("md", markdownLibrary);
 
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addPassthroughCopy({ 'src/images': 'images' });

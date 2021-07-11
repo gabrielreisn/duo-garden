@@ -4,7 +4,9 @@
 }
 
 .tags {
-  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-top: 1rem; */
   font-size: var(--text-sm);
   margin-bottom: 1rem;
 }

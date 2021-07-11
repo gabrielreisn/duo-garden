@@ -38,6 +38,8 @@
     "clean": "rm -rf ./public"
   },
   "dependencies": {
+    "markdown-it": "^12.1.0",
+    "markdown-it-anchor": "^8.1.0",
     "remove": "^0.1.5"
   }
 }
