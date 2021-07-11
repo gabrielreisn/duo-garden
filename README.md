@@ -1,3 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5311e111-2eac-405d-8f93-73571b77579f/deploy-status)](https://app.netlify.com/sites/duo-garden/deploys)
+
+https://duo-garden.netlify.app/
+
 # Eleventy Duo
 
 Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.

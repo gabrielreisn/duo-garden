@@ -1,5 +1,5 @@
 ---
-title: About-me
+title: About
 layout: about.njk
 name: Gabriel Reis
 image: '/images/me.jpeg'
