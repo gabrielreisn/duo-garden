@@ -19,3 +19,5 @@ fields:
   label: Permalink
   default: posts/{{ title | slug }}/index.html
   hidden: true
+pages:
+- src/posts/things-i-have-learned-while-working-with-a-video-player-library.md
