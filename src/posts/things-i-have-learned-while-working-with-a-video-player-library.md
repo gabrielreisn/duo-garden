@@ -1,8 +1,9 @@
 ---
 permalink: posts/{{ title | slug }}/index.html
 title: Things i have learned while working with a video-player library
-date: 2021-07-11T03:00:00Z
-tags: []
+date: 2021-07-11T03:00:00.000+00:00
+tags:
+- development
 description: ''
 
 ---
