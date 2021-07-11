@@ -23,24 +23,26 @@
   "socialLinks": [
     {
       "text": "GitHub",
-      "url": "https://github.com/yinkakun/eleventy-duo",
+      "url": "https://github.com/gabrielreisn",
+      "iconPath": "/images/icons/github.svg",
       "external": true
     },
     {
       "text": "Twitter",
-      "url": "https://twitter.com/",
+      "url": "https://twitter.com/gabrielreisnf",
+      "iconPath": "/images/icons/twitter.svg",
       "external": true
     },
     {
       "text": "Linkedin",
-      "url": "https://twitter.com/",
+      "url": "https://www.linkedin.com/in/gabrielreisnf",
+      "iconPath": "/images/icons/linkedin.svg",
       "external": true
-    }
-  ],
-  "footerLinks": [
+    },
     {
-      "text": "RSS",
-      "url": "/feed.xml",
+      "text": "Telegram",
+      "url": "https://t.me/gabrielreisn",
+      "iconPath": "/images/icons/telegram.svg",
       "external": true
     }
   ],

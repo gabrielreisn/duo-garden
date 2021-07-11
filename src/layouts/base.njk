@@ -109,7 +109,9 @@
                 {% endif %}
 
                 <li>
-                  <a href="{{ item.url | url }}" {{ externalAttribute | safe }} >{{ item.text }}</a>
+                  <a href="{{ item.url | url }}" {{ externalAttribute | safe }} >
+                    <img class="footer__social--icon" src="{{ item.iconPath }}" alt="{{ item.text }}"/>
+                  </a>
                 </li>
               {% endfor %}
             {% endif %}
@@ -124,7 +126,9 @@
                 {% endif %}
 
                 <li>
-                  <a href="{{ item.url | url }}" {{ externalAttribute | safe }} >{{ item.text }}</a>
+                  <a href="{{ item.url | url }}" {{ externalAttribute | safe }} >
+                    <img class="footer__social--icon" src="{{ item.iconPath }}" alt="{{ item.text }}"/>
+                  </a>
                 </li>
               {% endfor %}
             {% endif %}
@@ -132,8 +136,7 @@
 
           {% if site.showFooterAttribution %}
             <p class="footer__attribution">
-        Powered by <a href="https://www.11ty.dev" target="_blank" rel="noopener">11ty,</a>
-        and <a href="https://github.com/yinkakun/eleventy-duo" target="_blank" rel="noopener noreferrer"> duo template </a>
+              Powered by <a href="https://www.11ty.dev" target="_blank" rel="noopener">11ty</a>
             </p>
           {% endif %}
 

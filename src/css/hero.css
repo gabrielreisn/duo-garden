@@ -18,11 +18,13 @@
   list-style-type: none;
   margin-top: 2rem;
   text-transform: uppercase;
+  justify-content: space-evenly;
 }
 
 .hero__social-links > li {
-  margin-right: 2rem;
-  margin-top: 1rem;
+  /* margin-right: 2rem; */
+  max-width: 3rem;
+  /* margin-top: 1rem; */
 }
 
 .hero__skip-link {

@@ -32,5 +32,9 @@
 }
 
 .footer li {
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
+}
+
+.footer__social--icon {
+  height: 2rem;
 }
