@@ -44,6 +44,7 @@ module.exports = function (eleventyConfig) {
       breaks: true,
       linkify: true
     }).use(markdownItAnchor, {
+      level: 2,
       permalink: true,
       permalinkClass: "direct-link",
       permalinkSymbol: "#"

@@ -24,6 +24,7 @@
 .hero__social-links > li {
   /* margin-right: 2rem; */
   max-width: 3rem;
+  margin: 0 .25rem;  
   /* margin-top: 1rem; */
 }
 

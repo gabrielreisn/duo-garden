@@ -6,6 +6,7 @@
 .tags {
   display: flex;
   flex-wrap: wrap;
+  word-break: keep-all;
   /* margin-top: 1rem; */
   font-size: var(--text-sm);
   margin-bottom: 1rem;
