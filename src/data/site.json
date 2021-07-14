@@ -1,13 +1,13 @@
 {
   "name": "🌿Digital Garden",
   "description": "Personal website heavily inspired on joel hooks digital-garden and my friends @victor-paladini project",
-  "url": "https://eleventyduo.netlify.app",
+  "url": "https://gabrielreis.dev",
   "author": {
     "name": "Gabriel Reis",
     "email": "gabrielreisnf@gmail.com",
     "twitterHandle": "author_handle"
   },
-  "defaultSocialImage": "/images/default-social-image.png",
+  "defaultSocialImage": "https://images.unsplash.com/photo-1589698272390-0501a07619bb",
   "headerLinks": [
     {
       "text": "Blog",
