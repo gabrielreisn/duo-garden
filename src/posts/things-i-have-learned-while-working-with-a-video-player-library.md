@@ -40,7 +40,7 @@ That made the whole thing more restricted for developers, probably led by busine
 
 Keeping video size proportion can be incredibly hard (specially when using a lib that implement a lof of UI styles for you. Part of the trade-offs)
 
-On modern browsers the support for `aspect-ratio`is quite good according to (MDN docs)[https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio] 
+On modern browsers the support for `aspect-ratio`is quite good according to [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) 
 
 One nice tricky prior to that was setting the padding based on a percentage, forcing the whole layout to perserve the width, which got into this nice table
 
@@ -54,4 +54,7 @@ aspect ratio  | padding-bottom value
     8:5       |       62.5%
 ```
 
+## React integration
 
+As the lib was originaly designed only to support plain-js, community packages were created to support newer UI libraries / frameworks. 
+The one recommended on the official lib doc is https://github.com/chintan9/plyr-react, which allows you to have full control of the video API trhough a ref. The curious part with that integration is regarding re-renders. Since you don't want your video to be flickering frames and re-rendering, make sure you wrap all your custom props inside a `useMemo` hook to prevent those
