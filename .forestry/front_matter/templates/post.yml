@@ -20,4 +20,5 @@ fields:
   default: posts/{{ title | slug }}/index.html
   hidden: true
 pages:
+- src/posts/git-from-zero-to-something.md
 - src/posts/things-i-have-learned-while-working-with-a-video-player-library.md
