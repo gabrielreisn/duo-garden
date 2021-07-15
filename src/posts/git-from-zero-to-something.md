@@ -2,7 +2,9 @@
 permalink: posts/{{ title | slug }}/index.html
 title: Git from zero to something
 date: 2021-07-14T03:00:00Z
-tags: []
+tags:
+- beginner-guide
+- git
 description: ''
 
 ---
@@ -12,7 +14,7 @@ Probably this is not the best git article on the web, and neither it should be. 
 
 * what is git and why you should use it
 * how is that different from GitHub
-* the basics: start tracking your progress with commits 
+* the basics: start tracking your progress with commits
 * the pitfalls of using a single branch and why gitfow
 * working with branches and creating pull-requests
 * dealing with conflicts
